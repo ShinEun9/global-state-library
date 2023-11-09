@@ -6,3 +6,7 @@ const useStore = create((set) => ({
 }));
 
 export default useStore;
+
+// * An alternative approach is to define actions at module level, external to the store.
+// export const toggleThema = () =>
+//   useBoundStore.setState((state) => ({ isDark: !state.isDark }));
